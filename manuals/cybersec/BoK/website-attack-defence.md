@@ -2,7 +2,7 @@
 title: Web Security Attack and Defence
 description: 
 published: true
-date: 2022-09-20T08:12:28.769Z
+date: 2022-09-21T15:16:14.997Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-08T10:41:34.312Z
@@ -116,6 +116,62 @@ And lastly, reveal the passwords like so:
 ![sql6.png](/bok/sql6.png)
 
 We extracted hashed passwords from the usertable in the database!
+
+<br />
+<br />
+
+
+# XSS & CSRF
+
+<br />
+
+## XSS (DOM)
+
+Cross Site Scripting (XSS) are injection-based attacks that are primarily used by injecting malicious scripts into a part of a website, or in other words, an XSS attack is sending malicious code using a web application. They occur where a user is permitted to use an input and are quite widespread and well-known exploits.
+
+<br />
+
+On low-security webservers, we can very easily check if the input of the website is vulnerable for XSS. Let's head to the XSS (DOM) section of DVWA and click on the <kbd>SELECT</kbd> key. You'll notice that the URL of the page has changed. It now contains `?default=English`. To check for the vulnerability, we simply need to change *English* to something else, like *Hacking*.
+You should now see that the input entry has changed with your value:
+![xss1.png](/bok/xss1.png)
+
+<br />
+
+Now that we know we can make use of the vulnerabilities, we can start our exploit. Let's start by displaying a simple alert box. 
+As we did before with changing the language entry, we can try changing it to a script line. Something like this:
+
+```html
+<script>alert("Hack yeah!")</script>
+```
+
+So, the URL should look something like this:
+`.../xss_d/?default=<script>alert("Hack yeah!")</script>`
+
+Entering and proceeding with the url gives you a fun alert box.
+
+![xss2.png](/bok/xss2.png)
+
+<br />
+
+This however becomes bored rather quickly. There are other things you can try like extracting cookies or spam-reloading the page, but these things might turn out to be better when we actually store our scripts onto the database. More on that later on. 
+
+**Extract Cookies**
+```html
+<script>alert(document.cookies)</script>
+```
+
+
+**Spam-reloading website**
+```html
+<script>window.location.reload()</script>
+```
+
+<br />
+
+## XSS (Reflected)
+
+
+
 
 <br />
 <br />
