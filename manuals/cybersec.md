@@ -2,7 +2,7 @@
 title: Cyber Security Portfolio - CS4 Fontys Eindhoven
 description: 
 published: true
-date: 2022-09-11T19:54:57.224Z
+date: 2022-09-21T13:25:51.604Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:55.326Z
@@ -23,6 +23,7 @@ I wanted to join Cyber Security classes because I saw the most potential in this
 - [Personal Vulnerability Investigation report](/manuals/cybersec/pvi)
 - [Personal Specialisation Project Report](/manuals/cybersec/psp)
 - [Group Project Reports](/manuals/cybersec/groupreports)
+{.links-list}
 
 <br />
 <br />
