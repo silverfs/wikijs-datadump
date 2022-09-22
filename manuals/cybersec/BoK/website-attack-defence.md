@@ -2,7 +2,7 @@
 title: Web Security Attack and Defence
 description: 
 published: true
-date: 2022-09-21T17:51:26.963Z
+date: 2022-09-22T14:24:21.330Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-08T10:41:34.312Z
@@ -130,6 +130,7 @@ Cross Site Scripting (XSS) are injection-based attacks that are primarily used b
 
 ## XSS (DOM)
 
+DOM based Cross site Scripting is very similar to Reflected XSS. The difference is that you enter data which modifies the DOM (Document Object Model) of the web page. This data too can contain JavaScript that can be executed on behalf and in the context of the application. What makes it different from Reflected XSS is that by modifying the DOM, the data might never go to the server. If you can find a web-application which relies heavily on client-side JS and makes fast to instant changes to the page you are viewing when you enter data, it's likely that there are scripts to update the DOM.
 
 <br />
 
@@ -170,9 +171,11 @@ This however becomes bored rather quickly. There are other things you can try li
 ```
 
 <br />
+<br />
 
 ## XSS (Reflected)
 
+XSS is a reflected type when you enter data to the application which is immediately echoed back without escaping, sanitization or encoding it. 
 
 
 
