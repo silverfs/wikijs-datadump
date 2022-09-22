@@ -2,7 +2,7 @@
 title: Web Security Attack and Defence
 description: 
 published: true
-date: 2022-09-22T14:24:21.330Z
+date: 2022-09-22T14:51:52.558Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-08T10:41:34.312Z
@@ -177,8 +177,40 @@ This however becomes bored rather quickly. There are other things you can try li
 
 XSS is a reflected type when you enter data to the application which is immediately echoed back without escaping, sanitization or encoding it. 
 
+Apart from the different usecase/background compared to DOM XSS, it performs the same.
+```html
+<script>alert("test")</script>
+```
 
+![xss2-1.png](/bok/xss2-1.png)
+
+Notice that you even get the same response reflected in the URL, which you can change the same as in the DOM example. 
 
 <br />
 <br />
 
+## XSS (Stored)
+
+Stored XSS is, as the name suggests, entering data in the application which will later return in response to another request. The data will contain JS and can be executed not only after a refresh, but also switching/closing tabs. It is a *stored* piece of code after all.
+<br />
+
+This is the Stored XSS page of DVWA. 
+
+![xss3-1.png](/bok/xss3-1.png)
+<br />
+
+We can figure out where to put our script by just starting to type. You'll notice that the name input is small and has limited characters to type in. The easiest way is typing your script in the message input. If you still come short on your input characters, you can simply try to adjust the amount of allowed characters in the input field as shown below.
+
+![xss3-2-1.png](/bok/xss3-2-1.png)
+
+Now we need to type our script in the message input and put a something irrelevant in the name input and hit <kbd>Sign Guestbook</kbd>
+
+```html
+<script>alert("my message :)")</script>
+```
+
+An alert box will be shown.
+Reloading the page cycles the script through the messages and posts a new one. Now, everytime we go away and come back to the same page, you'll get greeted by the alert box. This means storing our script was successful.
+
+<br />
+<br />
