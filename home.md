@@ -2,7 +2,7 @@
 title: Home
 description: The homepage of this wonderful wiki!
 published: true
-date: 2022-09-27T12:34:55.483Z
+date: 2022-09-27T12:35:11.875Z
 tags: homepage, shiruvaaa
 editor: markdown
 dateCreated: 2021-08-21T20:39:56.716Z
@@ -18,7 +18,7 @@ Consider visiting my [personal website](https://shiruvaaa.net/), [Github](https:
 </br>
 </br>
 
-> If you like what you are reading and want something published here (or you want to write it yourself), just let me know on [Discord](https://discordid.netlify.app/?id=296302114794373121) or send an email with your thoughts to: [wiki@shiruvaaa.net](mailto:wiki@shiruvaaa.net?subject=Wiki-Feedback). 
+> If you like what you are reading and want something published here (or you want to write it yourself), just let me know on [Discord](https://discordid.netlify.app/?id=296302114794373121) or send an email with your thoughts to: [admin@shiruvaaa.net](mailto:admin@shiruvaaa.net?subject=Wiki-Feedback). 
 You'll not only be able to contribute, you can even place comments!
 {.is-success}
 
