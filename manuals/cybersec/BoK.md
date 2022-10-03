@@ -2,7 +2,7 @@
 title: Body of Knowledge
 description: 
 published: true
-date: 2022-09-21T13:26:31.623Z
+date: 2022-10-03T09:47:33.261Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:01.183Z
@@ -50,6 +50,8 @@ It includes examples of every category documented within the application(s).
 ## Identification of Vulnerabilities
 
 ## Protect the Network
+
+- [Secure Network Configuration](/manuals/cybersec/BoK/analysis) talks about the importance of web-security, certificates and an extension of law regulations regarding this subject.
 
 ## Attack the Network and Defend
 
