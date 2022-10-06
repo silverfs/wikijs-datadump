@@ -2,7 +2,7 @@
 title: Secure Network Connections (HTTPS/TLS/SSH)
 description: 
 published: true
-date: 2022-10-06T12:00:06.997Z
+date: 2022-10-06T12:29:39.076Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-03T09:39:20.917Z
@@ -37,5 +37,13 @@ Next, we'll head overto `/etc/apache2/sites-enabled/default-ssl.conf` or whereve
 <br />
 
 And with some indepth information about our self-signed certificate, we've completed our basic self-signed certificate. 
+Here is some more data about the certificate.
 
 ![self-ssl3.png](/bok/self-ssl3.png)
+
+<br />
+<br />
+
+We can even view that our certificate is encrypted with RSA 2048:
+
+![self-ssl4.png](/bok/self-ssl4.png)
