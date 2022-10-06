@@ -2,7 +2,7 @@
 title: Secure Network Connections (HTTPS/TLS/SSH)
 description: 
 published: true
-date: 2022-10-06T11:58:59.531Z
+date: 2022-10-06T12:00:06.997Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-03T09:39:20.917Z
@@ -12,11 +12,12 @@ dateCreated: 2022-10-03T09:39:20.917Z
 <br />
 
 SSL is more commonly known as TLS and is a protocol for encrytping internet traffic and verifying website/server identity. It's the standard technology for keeping an internet connection secure and safeguarding a connection between systems. An SSL certificate is what enables a website to move from HTTP to HTTPS. Essentially, it's a datafile hosted in a website's origin server. They contain the public key and the website's identity and other related information. This public key is used to verify the identity of the website/server. 
-
+<br />
 
 ## Creating an SSL certificate
 To understand more about an SSL certificate and the process of creating one, let's create on in Linux.
 I made this this certificate using OpenSSL and Apache2 within WSL2 Ubuntu 22.04.
+<br />
 
 I'll hold back the boring stuff and focus on the certificate stuff. Make sure Apache2 is installed. I've enabled ssl and made it default for Apache. The next thing I did was creating the actual keys:
 
@@ -33,6 +34,7 @@ the `days` flag sets the expiration date of the certificate. The `keyout` flag s
 Next, we'll head overto `/etc/apache2/sites-enabled/default-ssl.conf` or wherever your default Apache configuration is and specify our web-domain and the location of our certificate and key file. Save and reload, and voila!
 
 ![self-ssl2.png](/bok/self-ssl2.png)
+<br />
 
 And with some indepth information about our self-signed certificate, we've completed our basic self-signed certificate. 
 
