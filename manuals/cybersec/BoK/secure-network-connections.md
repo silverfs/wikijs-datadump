@@ -2,7 +2,7 @@
 title: Secure Network Connections (HTTPS/TLS/SSH)
 description: 
 published: true
-date: 2022-10-06T12:29:39.076Z
+date: 2022-10-06T13:58:32.992Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-03T09:39:20.917Z
@@ -47,3 +47,6 @@ Here is some more data about the certificate.
 We can even view that our certificate is encrypted with RSA 2048:
 
 ![self-ssl4.png](/bok/self-ssl4.png)
+
+# The firm handshake
+
