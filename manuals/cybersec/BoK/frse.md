@@ -2,7 +2,7 @@
 title: Footprinting, Reconnaissance and Social Engineering
 description: 
 published: true
-date: 2022-10-07T10:19:22.300Z
+date: 2022-10-07T10:19:38.936Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-07T09:35:57.156Z
@@ -18,6 +18,8 @@ You can go into much more detail and eventually escalate it to a structured atta
 When you want to use your hacking skills on, for example, a company - be it for nefarious reasons or pentesting - You'll need to gather information to make the process go as smooth as possible.
 You can go from as simple as social media scanning to Google Dorks, which I'm still not sure why these features are still allowed and continued. 
 For reference, When you use Google Dorks, you use search strings that leverages advanced search operators to find information that isn’t readily available on a particular website and/or in normal circumstances. 
+<br />
+<br />
 
 ## Example
 
