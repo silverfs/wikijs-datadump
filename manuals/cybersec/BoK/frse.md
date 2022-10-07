@@ -2,7 +2,7 @@
 title: Footprinting, Reconnaissance and Social Engineering
 description: 
 published: true
-date: 2022-10-07T10:51:58.075Z
+date: 2022-10-07T10:53:07.663Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-07T09:35:57.156Z
@@ -29,4 +29,8 @@ You can find information through WHOIS. WHOIS is a widely used internet record l
 ## Example
 
 I'll display a short example of footprinting some people in a large company. Let's pick our target first:
+It is quite easy to gather email addresses from people. 
 
+- 
+- 
+- s
