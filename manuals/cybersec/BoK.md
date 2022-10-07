@@ -2,7 +2,7 @@
 title: Body of Knowledge
 description: 
 published: true
-date: 2022-10-05T11:05:54.224Z
+date: 2022-10-07T09:38:10.064Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:01.183Z
@@ -72,6 +72,7 @@ All these cases, including my personal views are available [here](/manuals/cyber
 
 ## Identity Management, Authentication and Access Control
 
+[Footprinting, Reconnaissance and Social Engineering](/manuals/cybersec/BoK/frse) talks about the importance and usage of footprinting.
 ## Incident Response and Analysis
 
 
