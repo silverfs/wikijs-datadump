@@ -2,7 +2,7 @@
 title: Footprinting, Reconnaissance and Social Engineering
 description: 
 published: true
-date: 2022-10-07T10:53:07.663Z
+date: 2022-10-07T10:53:15.765Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-07T09:35:57.156Z
@@ -33,4 +33,4 @@ It is quite easy to gather email addresses from people.
 
 - 
 - 
-- s
+- 
