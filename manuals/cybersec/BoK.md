@@ -2,7 +2,7 @@
 title: Body of Knowledge
 description: 
 published: true
-date: 2022-10-07T09:38:10.064Z
+date: 2022-10-10T09:44:29.164Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:01.183Z
@@ -54,6 +54,8 @@ It includes examples of every category documented within the application(s).
 - [Secure Network Configuration](/manuals/cybersec/BoK/secure-network-connections) talks about the importance of web-security, certificates and an extension of law regulations regarding this subject.
 
 ## Attack the Network and Defend
+
+- One of the more common and more easily accessible network attack methods are [Network Sniffing and Spoofing](/manuals/cybersec/BoK/sniffing-and-spoofing). Read all about it here.
 
 ## Monitor and Detect
 
