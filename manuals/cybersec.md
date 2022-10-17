@@ -2,7 +2,7 @@
 title: Cyber Security Portfolio - CS4 Fontys Eindhoven
 description: 
 published: true
-date: 2022-09-21T13:25:51.604Z
+date: 2022-10-17T18:00:42.957Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:55.326Z
@@ -15,6 +15,11 @@ My name is Faizal and welcome to the S4 Documentation hub, where I'll be documen
 
 I wanted to join Cyber Security classes because I saw the most potential in this broad theme, next to my personal interests in this subject. I did not actively do many things security-wise prior to this semester, but I already had experience with networking and Windows and Linux servers, so basic applied security within these themes are already known. 
 <br />
+<br />
+
+## Version Control
+Version history is actively tracked here: https://github.com/silverfs/wikijs-datadump/tree/main/manuals/cybersec
+
 <br />
 
 ## Documentation
