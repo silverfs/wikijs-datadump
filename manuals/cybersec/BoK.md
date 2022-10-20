@@ -2,7 +2,7 @@
 title: Body of Knowledge
 description: 
 published: true
-date: 2022-10-10T09:44:29.164Z
+date: 2022-10-20T13:27:48.272Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:01.183Z
@@ -22,6 +22,13 @@ The themes are in order as follows:
 
 > Learning tasks are defined and organised in Themes. By showing my learning process per theme, Learning Outcomes naturally follow.
 {.is-info}
+
+<br />
+
+## Version Control
+
+Version history is actively tracked here: https://github.com/silverfs/wikijs-datadump/tree/main/manuals/cybersec/BoK
+
 
 <br />
 <br />
