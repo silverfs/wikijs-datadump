@@ -2,7 +2,7 @@
 title: Secure Network Connections (HTTPS/TLS/SSH)
 description: 
 published: true
-date: 2022-10-06T13:58:32.992Z
+date: 2022-10-22T12:00:48.619Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-03T09:39:20.917Z
@@ -11,7 +11,7 @@ dateCreated: 2022-10-03T09:39:20.917Z
 # Introduction 
 <br />
 
-SSL is more commonly known as TLS and is a protocol for encrytping internet traffic and verifying website/server identity. It's the standard technology for keeping an internet connection secure and safeguarding a connection between systems. An SSL certificate is what enables a website to move from HTTP to HTTPS. Essentially, it's a datafile hosted in a website's origin server. They contain the public key and the website's identity and other related information. This public key is used to verify the identity of the website/server. 
+SSL is more commonly known as TLS and is a protocol for encrypting internet traffic and verifying website/server identity. It's the standard technology for keeping an internet connection secure and safeguarding a connection between systems. An SSL certificate is what enables a website to move from HTTP to HTTPS. Essentially, it's a datafile hosted in a website's origin server. They contain the public key and the website's identity and other related information. This public key is used to verify the identity of the website/server. 
 <br />
 
 ## Creating an SSL certificate
@@ -31,12 +31,12 @@ the `days` flag sets the expiration date of the certificate. The `keyout` flag s
 ![self-ssl1.png](/bok/self-ssl1.png)
 <br />
 
-Next, we'll head overto `/etc/apache2/sites-enabled/default-ssl.conf` or wherever your default Apache configuration is and specify our web-domain and the location of our certificate and key file. Save and reload, and voila!
+Next, we'll head over to `/etc/apache2/sites-enabled/default-ssl.conf` or wherever your default Apache configuration is and specify our web-domain and the location of our certificate and key file. Save and reload, and voila!
 
 ![self-ssl2.png](/bok/self-ssl2.png)
 <br />
 
-And with some indepth information about our self-signed certificate, we've completed our basic self-signed certificate. 
+And with some in-depth information about our self-signed certificate, we've completed our basic self-signed certificate. 
 Here is some more data about the certificate.
 
 ![self-ssl3.png](/bok/self-ssl3.png)
