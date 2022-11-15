@@ -2,7 +2,7 @@
 title: Body of Knowledge
 description: 
 published: true
-date: 2022-10-20T13:27:48.272Z
+date: 2022-11-15T17:04:40.499Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:01.183Z
@@ -36,25 +36,17 @@ Version history is actively tracked here: https://github.com/silverfs/wikijs-dat
 # Web Application Security
 <br />
 
-## Web Application Attack and Defence
+## Attack and Defence
 
-
-## Database Attack and Defence
-
-
-## Web Site Attack and Defence
-
-- A guide and walkthrough of DVWA and Juice-Shop is available [here](/manuals/cybersec/BoK/website-attack-defence). 
-It includes examples of every category documented within the application(s).
+- A guide and walkthrough of DVWA is available [here](/manuals/cybersec/BoK/website-attack-defence). 
+It includes examples of every category documented within the application(s) and ticks the boxes of the beginning theories from path traversal to SQL injection.
 
 
 <br />
 <br />
 
 # Network Security
-
-
-## Identification of Vulnerabilities
+<br />
 
 ## Protect the Network
 
@@ -65,12 +57,13 @@ It includes examples of every category documented within the application(s).
 - One of the more common and more easily accessible network attack methods are [Network Sniffing and Spoofing](/manuals/cybersec/BoK/sniffing-and-spoofing). Read all about it here.
 
 ## Monitor and Detect
+[Network Intrusion Detection and Prevention](/manuals/cybersec/BoK/network-intrusion-detection-and-prevention) talks about monitoring networks or systems for malicious activity. The most common classifications are network intrusion detection systems (NIDS) and host-based intrusion detection systems (HIDS). 
+<br />
+<br />
 
-<br />
-<br />
 
 # Security Concepts
-
+<br />
 
 ## Introductionary Info
 
@@ -84,13 +77,13 @@ All these cases, including my personal views are available [here](/manuals/cyber
 [Footprinting, Reconnaissance and Social Engineering](/manuals/cybersec/BoK/frse) talks about the importance and usage of footprinting.
 ## Incident Response and Analysis
 
-
-
-
 <br />
 <br />
+
+
 
 # Applied Security
+<br />
 
 ## Personal Specialization Project
 

@@ -2,7 +2,7 @@
 title: Cyber Security Portfolio - CS4 Fontys Eindhoven
 description: 
 published: true
-date: 2022-10-17T18:00:42.957Z
+date: 2022-11-15T16:58:25.301Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:55.326Z
@@ -25,7 +25,7 @@ Version history is actively tracked here: https://github.com/silverfs/wikijs-dat
 ## Documentation
 
 - [BoK](/manuals/cybersec/BoK)
-- [Personal Vulnerability Investigation report](/manuals/cybersec/pvi)
+- [Personal Vulnerability Investigation report](https://stories.shiruvaaa.net/home-server-security/)
 - [Personal Specialisation Project Report](/manuals/cybersec/psp)
 - [Group Project Reports](/manuals/cybersec/groupreports)
 {.links-list}
@@ -57,10 +57,6 @@ You realize procedural response for security incidents and analyze these in an e
 You demonstrate your professional development as a cyber security specialist in the form of authentic IT professional tasks in which both the process and the results are visible.
 
 <br />
-<br />
-
-## Personal Projects
-
 <br />
 <br />
 

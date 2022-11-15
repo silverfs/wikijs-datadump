@@ -2,7 +2,7 @@
 title: Network Sniffing and Spoofing
 description: 
 published: true
-date: 2022-10-12T15:00:17.286Z
+date: 2022-11-15T16:56:51.441Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-10T09:41:45.320Z
@@ -46,3 +46,53 @@ At the end of the screen, there's an _find_ input field. Simply search for words
 
 I could easily find my used username in password using this method and shows how easily you can do it to!
 ![wireshark4.png](/bok/wireshark4.png)
+
+
+---
+
+
+# Spoofing and Man-In-The-Middle attacks?
+
+Spoofing is the act of pretending to be another person or system. In this section, I want to explore ARP spoofing and ARP poisoning a network. ARP is a protocol used by every device in a network. It matches IP addresses with corresponding MAC addresses. I want to use ARP to pretend to be the router on a network to access credentials. 
+
+Using VMware Workstation, I created a network with a Kali Linux machine, 1 client and a router. I will be using this network for spoofing and ARP poisoning. in this network, `192.168.10.254` is the address of the router. Let's get started.
+<br />
+<br />
+
+I began with opening Ettercap on my Kali device with `sudo ettercap -G` (for the graphical interface). Then, I selected the network interface I wanted to use. In my case, I used `eth0`.
+
+Next, I scanned the network for hosts by clicking on the zoom-button at the top. Ettercap found 3 hosts in my network.
+
+![ettercaphostscan.png](/bok/ettercaphostscan.png)
+
+I then added `192.168.10.2` (the client) as target number 1 and `192.168.10.254` (the router) as target number 2.
+
+![ettercaptargets2.png](/bok/ettercaptargets2.png)
+<br />
+
+Now that we have setup these targets, it's time to confuse the different IP addresses in the environment. We'll do this by sending ARP information into the environment. 
+
+![beforesniff.png](/bok/beforesniff.png)
+
+![mitm-attack.png](/bok/mitm-attack.png)
+<br />
+<br />
+
+We'll start Wireshark next to Ettercap to capture the traffic and monitor the network on eth0. Notice the ARP entries in the network in Wireshark.
+
+![arppoison.png](/bok/arppoison.png)
+<br />
+<br />
+
+Finally, we can focus on our 2 victims in our network. I want to know the credentials of the router. Target 1 (the client) logs in on the router through it's ip in Firefox. Once target 1 logs in - and because of our man-in-the-middle attack - we can figure out the credentials of the router (target 2). Ettercap displays in the picture below the username and password content of the login-page from the router.
+
+![mitm-success.png](/bok/mitm-success.png)
+<br />
+<br />
+
+This is an example on how quickly we can select targets, disrupt a network and launching a MITM attack using ARP poisoning and finally do a lot more in the environment using Wireshark, like analyzing packets, communication between devices and servers, session-id's, cookie-values and much more. This specific type of attack is used inside a network and is used after analyzing network traffic of clients and servers.
+<br />
+
+## To sum up what we have done:
+First, an attacker (me) selects some victim machines. He then launches tools like Ettercap to act like a proxy and begins an attack like ARP poisoning. Once the network traffic is confused and corrupted, he will tpically perform the next step, like playing the man-in-the-middle, which are one of the most common goals with ARP poisoning. 
+<br />
