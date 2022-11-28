@@ -2,7 +2,7 @@
 title: Network Intrusion Detection and Prevention
 description: 
 published: true
-date: 2022-11-15T20:20:45.359Z
+date: 2022-11-28T22:23:47.147Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-08T15:26:58.120Z
@@ -33,4 +33,16 @@ I want to add [Snort](https://snort.org) to suricata, so I'll head over to the g
 To finish it off, I need to update Suricata to and it's settings on the Update tab. 
 
 ![snortupdate.png](/bok/nids/snortupdate.png)
+<br />
+
+---
+
+<br />
+I'll now enable some rules that'll give me an alert with certain detections on functions. For the sake of testing, I'll turn on:
+
+![snort-protocol-icmp.png](/bok/nids/snort-protocol-icmp.png).
+
+There are more rules, but I'll not touch them for now.
+![category-rules.png](/bok/nids/category-rules.png)
+
 <br />
