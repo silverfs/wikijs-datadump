@@ -2,7 +2,7 @@
 title: Body of Knowledge
 description: 
 published: true
-date: 2022-11-15T17:04:40.499Z
+date: 2022-12-02T12:05:09.323Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:01.183Z
@@ -77,18 +77,5 @@ All these cases, including my personal views are available [here](/manuals/cyber
 [Footprinting, Reconnaissance and Social Engineering](/manuals/cybersec/BoK/frse) talks about the importance and usage of footprinting.
 ## Incident Response and Analysis
 
-<br />
-<br />
-
-
-
-# Applied Security
-<br />
-
-## Personal Specialization Project
-
-## Group Project "Security  Assessment (Pentest)"
-
-## Group Project "Secure Solution"
 <br />
 <br />
