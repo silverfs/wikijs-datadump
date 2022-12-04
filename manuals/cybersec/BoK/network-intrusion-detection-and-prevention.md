@@ -2,7 +2,7 @@
 title: Network Intrusion Detection and Prevention
 description: 
 published: true
-date: 2022-11-28T22:23:47.147Z
+date: 2022-12-04T16:40:07.816Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-08T15:26:58.120Z
@@ -42,7 +42,8 @@ I'll now enable some rules that'll give me an alert with certain detections on f
 
 ![snort-protocol-icmp.png](/bok/nids/snort-protocol-icmp.png).
 
+This category has rules about ICMP requests. Enabling these rules allows suricata to register pings as alerts.
 There are more rules, but I'll not touch them for now.
-![category-rules.png](/bok/nids/category-rules.png)
+
 
 <br />
