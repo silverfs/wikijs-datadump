@@ -2,7 +2,7 @@
 title: Network Intrusion Detection and Prevention
 description: 
 published: true
-date: 2022-12-04T16:40:07.816Z
+date: 2022-12-04T16:46:53.604Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-08T15:26:58.120Z
@@ -44,6 +44,8 @@ I'll now enable some rules that'll give me an alert with certain detections on f
 
 This category has rules about ICMP requests. Enabling these rules allows suricata to register pings as alerts.
 There are more rules, but I'll not touch them for now.
+
+At this point, my router crashed. I successfully rebooted but couldn't start up Suricata on my WAN connection. Removing the rule category didn't help either. I tried changing from vmnet and eventually reinstalled suricata, but to no avail.
 
 
 <br />
