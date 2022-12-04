@@ -2,7 +2,7 @@
 title: Network Intrusion Detection and Prevention
 description: 
 published: true
-date: 2022-12-04T16:46:53.604Z
+date: 2022-12-04T16:49:57.024Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-08T15:26:58.120Z
@@ -46,6 +46,7 @@ This category has rules about ICMP requests. Enabling these rules allows suricat
 There are more rules, but I'll not touch them for now.
 
 At this point, my router crashed. I successfully rebooted but couldn't start up Suricata on my WAN connection. Removing the rule category didn't help either. I tried changing from vmnet and eventually reinstalled suricata, but to no avail.
+The guide was a big help, but even without it, I learned a lot about Suricata and how to set it up. Watching some videos showed how to successfully deply an IDS on a router and how to use it to monitor and block IPs. I contacted a classmate and we discussed the Suricata deployment. I will try to continue later when I have some time left, until then, I will focus on other assignments.
 
 
 <br />
