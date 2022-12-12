@@ -2,7 +2,7 @@
 title: Body of Knowledge
 description: 
 published: true
-date: 2022-12-02T12:27:03.427Z
+date: 2022-12-12T10:25:22.736Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:01.183Z
@@ -50,7 +50,7 @@ It includes examples of every category documented within the application(s) and 
 
 ## Protect the Network
 
-- [Secure Network Configuration](/manuals/cybersec/BoK/secure-network-connections) talks about the importance of web-security, certificates and an extension of law regulations regarding this subject.
+- [Secure Network Connections](/manuals/cybersec/BoK/secure-network-connections) talks about the importance of web-security, certificates and an extension of law regulations regarding this subject.
 
 ## Attack the Network and Defend
 
