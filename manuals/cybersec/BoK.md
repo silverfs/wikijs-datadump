@@ -2,7 +2,7 @@
 title: Body of Knowledge
 description: 
 published: true
-date: 2022-12-13T23:44:03.172Z
+date: 2022-12-13T23:47:01.702Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:01.183Z
@@ -73,7 +73,8 @@ It includes examples of every category documented within the application(s) and 
 
 ## Introductionary Info
 
-- I've written an IT Risk Analysis with some threat examples which you can find [here](/manuals/cybersec/BoK/analysis). They'll give some more understanding about the theoretical approach. Other examples apart from the ones used for the risk analysis will be provided
+I've written an IT Risk Analysis with some threat examples which you can find [here](/manuals/cybersec/BoK/analysis). They'll give some more understanding about the theoretical approach. Other examples apart from the ones used for the risk analysis will be provided.
+
 To provide some basic understanding about the subjects, I will provide examples about cybercrime cases in order for me and the readers to familiarize ourselves with cyber crime cases.
 All these cases, including my personal views are available [here](/manuals/cybersec/BoK/lerd). 
 
@@ -81,9 +82,6 @@ All these cases, including my personal views are available [here](/manuals/cyber
 ## Identity Management, Authentication and Access Control
 
 - [Footprinting, Reconnaissance and Social Engineering](/manuals/cybersec/BoK/frse) talks about the importance and usage of footprinting.
-<br />
-
-## Incident Response and Analysis
 
 <br />
 <br />
