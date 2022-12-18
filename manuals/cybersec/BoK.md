@@ -2,7 +2,7 @@
 title: Body of Knowledge
 description: 
 published: true
-date: 2022-12-13T23:49:21.596Z
+date: 2022-12-18T22:53:42.213Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:01.183Z
@@ -15,7 +15,6 @@ The themes are in order as follows:
 - [Web Application Security](#web-application-security)
 - [Network Security](#network-security)
 - [Security Concepts](#security-concepts)
-- [Applied Security](#applied-security)
 {.links-list}
 
 <br />
@@ -78,7 +77,7 @@ I've written an IT Risk Analysis with some threat examples which you can find [h
 To provide some basic understanding about the subjects, I will provide examples about cybercrime cases in order for me and the readers to familiarize ourselves with cyber crime cases.
 All these cases, including my personal views are available [here](/manuals/cybersec/BoK/lerd). 
 
-- [laws](/cybersec/BoK/laws) will talk about Law, Standards and Compliance.
+- [laws](/manuals/cybersec/BoK/laws) will talk about Law, Standards and Compliance.
 
 ## Identity Management, Authentication and Access Control
 
