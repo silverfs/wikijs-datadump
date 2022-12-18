@@ -2,7 +2,7 @@
 title: Web Security Attack and Defence
 description: 
 published: true
-date: 2022-09-22T14:51:57.974Z
+date: 2022-12-18T23:42:47.308Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-08T10:41:34.312Z
@@ -214,3 +214,10 @@ Reloading the page cycles the script through the messages and posts a new one. N
 
 <br />
 <br />
+
+## CSRF
+
+CSRF, aka cross-site request forgery, is letting an end user perform a request that they probably don't want/know about. This attack causes the user who clicks on the link to take a certain action with an account whose session ID is stored as a cookie. The link often contains a script to, for example, replace the email address of the account with that of the attacker or to make transactions.
+
+<br />
+
