@@ -2,7 +2,7 @@
 title: Web Security Attack and Defence
 description: 
 published: true
-date: 2022-12-18T23:42:47.308Z
+date: 2022-12-29T20:37:19.495Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-08T10:41:34.312Z
@@ -220,4 +220,50 @@ Reloading the page cycles the script through the messages and posts a new one. N
 CSRF, aka cross-site request forgery, is letting an end user perform a request that they probably don't want/know about. This attack causes the user who clicks on the link to take a certain action with an account whose session ID is stored as a cookie. The link often contains a script to, for example, replace the email address of the account with that of the attacker or to make transactions.
 
 <br />
+
+Using the CSRF page from DVWA, I'll fill in the fields to change my admin password. 
+
+![1.png](/bok/csrf/1.png)
+
+AFter I click on "change" , I can see the following url:
+`/vulnerabilities/csrf/?password_new=&password_conf=&Change=Change#`
+
+We'll now try to change the values in "password_new" and "password_conf" to "example01" like so:
+`http://192.168.1.21:3006/vulnerabilities/csrf/?password_new=example01&password_conf=example01&Change=Change#`
+
+This works! I get receive a 'password changed' status.
+
+![2.png](/bok/csrf/2.png)
+
+<br />
+
+---
+
+In order to tackle the medium difficulty, let's take a look at the hints first.
+
+> CSRF is an attack that forces an end user to execute unwanted actions on a web application in which they are currently authenticated. With a little help of social engineering (such as sending a link via email/chat), an attacker may force the users of a web application to execute actions of the attacker's choosing.
+A successful CSRF exploit can compromise end user data and operation in case of normal user. If the targeted end user is the administrator account, this can compromise the entire web application.
+This attack may also be called "XSRF", similar to "Cross Site scripting (XSS)", and they are often used together.
+
+This hint indicates that it has something to do with XSS. I assume that we need to store our new password through an XSS method on the CSRF page. 
+
+I'll use an `img` tag on the XSS stored page as follows:
+
+`<img src='/vulnerabilities/csrf/?password_new=example01&password_conf=example01&Change=Change'>`
+
+After the message has been snent, I can see my image as a comment now:
+
+![3.png](/bok/csrf/3.png)
+
+I used Burp Suite to see my request getting through to the CSRF page. My password is changed.
+
+![4.png](/bok/csrf/4.png)
+
+<br />
+
+CSRF looks a lot like XSS, but still different. You can also use XSS to help with CSRF methods. 
+
+<br />
+<br />
+
 
