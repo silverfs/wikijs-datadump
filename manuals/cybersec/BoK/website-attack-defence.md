@@ -2,7 +2,7 @@
 title: Web Security Attack and Defence
 description: 
 published: true
-date: 2022-12-29T20:37:19.495Z
+date: 2023-01-01T17:16:27.172Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-08T10:41:34.312Z
@@ -121,7 +121,7 @@ We extracted hashed passwords from the usertable in the database!
 <br />
 
 
-# XSS & CSRF
+# XSS
 
 Cross Site Scripting (XSS) are injection-based attacks that are primarily used by injecting malicious scripts into a part of a website, or in other words, an XSS attack is sending malicious code using a web application. They occur where a user is permitted to use an input and are quite widespread and well-known exploits.
 
@@ -215,7 +215,7 @@ Reloading the page cycles the script through the messages and posts a new one. N
 <br />
 <br />
 
-## CSRF
+# CSRF
 
 CSRF, aka cross-site request forgery, is letting an end user perform a request that they probably don't want/know about. This attack causes the user who clicks on the link to take a certain action with an account whose session ID is stored as a cookie. The link often contains a script to, for example, replace the email address of the account with that of the attacker or to make transactions.
 
