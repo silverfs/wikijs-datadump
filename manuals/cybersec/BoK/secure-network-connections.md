@@ -2,7 +2,7 @@
 title: Secure Network Connections (HTTPS/TLS/SSH)
 description: 
 published: true
-date: 2022-10-22T12:00:52.955Z
+date: 2023-01-01T17:31:21.048Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-03T09:39:20.917Z
@@ -33,11 +33,13 @@ the `days` flag sets the expiration date of the certificate. The `keyout` flag s
 
 Next, we'll head over to `/etc/apache2/sites-enabled/default-ssl.conf` or wherever your default Apache configuration is and specify our web-domain and the location of our certificate and key file. Save and reload, and voila!
 
+What we see below is the a part of the default webpage of apache2. The addressbar shows our url of our machine's website, starting with `https://`. Notice the lock with the exclamation mark. This is a warning set by the browser that the certificate is self-signed thus cannot be easily trusted, which is fine in our case.
+
 ![self-ssl2.png](/bok/self-ssl2.png)
 <br />
 
-And with some in-depth information about our self-signed certificate, we've completed our basic self-signed certificate. 
-Here is some more data about the certificate.
+With some in-depth information about our self-signed certificate, we've completed our basic self-signed certificate. 
+Here is some more data about the certificate. Everything we filled in, amongst other data is present here.
 
 ![self-ssl3.png](/bok/self-ssl3.png)
 
@@ -48,5 +50,9 @@ We can even view that our certificate is encrypted with RSA 2048:
 
 ![self-ssl4.png](/bok/self-ssl4.png)
 
-# The firm handshake
+# SSH
+<br />
 
+I've written about securing SSH authentication within my Personal Vulnerability Investigation. Also directly available [here](https://stories.shiruvaaa.net/home-server-security/#ssh).
+
+<br />
