@@ -2,7 +2,7 @@
 title: Network Scanning and Enumeration
 description: 
 published: true
-date: 2023-01-04T23:37:20.559Z
+date: 2023-01-06T14:09:59.670Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-04T23:37:20.559Z
@@ -66,7 +66,30 @@ And here are the results this time:
 A lot of services have been recognized. Although one service couldn't be recognized. 
 
 ---
+<br />
 
-Guessing the OS of a target is also an option. Well, there are a few options. `--osscan-limit` 
+OS detection is a feature of Nmap that uses various techniques to identify the operating system running on a target host.
+There are a few options of guessing the OS of a target. 
+`--osscan-limit` in  Nmap is used to limit the depth of the OS detection scan. It is used to reduce the time and resources needed for the OS detection scan by limiting the scan to a subset of the techniques.
+With `--osscan-guess`, you'll get possible operating systems associated with the host. There is a chance that no perfect match can be found; with this option, you ensure that you at least get some information.
+
+performing the following:
+```
+sudo nmap -O 192.168.2.2 --osscan-guess
+```
+
+Results are shown down below. In our case, it found a perfect match, as it didn't leave any percentages on any lines. It is indeed a Windows server 2016.
+
+![4.png](/bok/enummeration/4.png)
+
+You can read more about OS detection at [nmap.org: man-os-detection](https://nmap.org/book/man-os-detection.html).
+
+
+
+
+
+
+
+
 <br />
 <br />
