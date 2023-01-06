@@ -2,7 +2,7 @@
 title: Body of Knowledge
 description: 
 published: true
-date: 2023-01-04T23:43:17.634Z
+date: 2023-01-06T17:58:57.075Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:01.183Z
@@ -80,6 +80,7 @@ To provide some basic understanding about the subjects, I will provide examples 
 All these cases, including my personal views are available [here](/manuals/cybersec/BoK/lerd). 
 
 - [laws](/manuals/cybersec/BoK/laws) will talk about Law, Standards and Compliance.
+- [Basic Hacking and Pentesting](/manuals/cybersec/BoK/basic-hacking).
 
 ## Identity Management, Authentication and Access Control
 
