@@ -2,7 +2,7 @@
 title: Body of Knowledge
 description: 
 published: true
-date: 2023-01-06T19:46:46.953Z
+date: 2023-01-06T21:43:14.458Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:01.183Z
@@ -91,5 +91,6 @@ All these cases, including my personal views are available [here](/manuals/cyber
 
 - [Footprinting, Reconnaissance and Social Engineering](/manuals/cybersec/BoK/frse) talks about the importance and usage of footprinting.
 
+- [Security Incident Management](/manuals/cybersec/BoK/incident-management) is a standard process. Read all about it here.
 <br />
 <br />
