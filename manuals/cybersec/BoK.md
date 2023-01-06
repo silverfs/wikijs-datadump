@@ -2,7 +2,7 @@
 title: Body of Knowledge
 description: 
 published: true
-date: 2023-01-06T19:07:44.698Z
+date: 2023-01-06T19:46:46.953Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:01.183Z
@@ -67,6 +67,9 @@ It includes examples of every category documented within the application(s) and 
 - In [Network Seperation and Segmentation](/manuals/cybersec/BoK/firewalls), we will look at network-based firewalls that divide the network in zones/segments.
 
 - [Network Scanning and Enumeration](/manuals/cybersec/BoK/scanning): the basics of scanning with Nmap.
+
+- [Different kinds of detection methods](/manuals/cybersec/BoK/hids-and-more) and their explanation.
+
 <br />
 <br />
 
