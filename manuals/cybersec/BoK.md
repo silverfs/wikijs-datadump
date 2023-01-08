@@ -2,7 +2,7 @@
 title: Body of Knowledge
 description: 
 published: true
-date: 2023-01-06T21:43:14.458Z
+date: 2023-01-08T23:05:20.876Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:01.183Z
@@ -61,6 +61,8 @@ It includes examples of every category documented within the application(s) and 
 
 ## Monitor and Detect
 - [Network Intrusion Detection and Prevention](/manuals/cybersec/BoK/network-intrusion-detection-and-prevention) talks about monitoring networks or systems for malicious activity. The most common classifications are network intrusion detection systems (NIDS) and host-based intrusion detection systems (HIDS). 
+
+- [Basic Monitoring](/manuals/cybersec/BoK/basic-monitoring) is here!
 
 - [IT Security Monitoring](/manuals/cybersec/BoK/security-monitoring) introduces the concepts of Security Monitoring.
 
