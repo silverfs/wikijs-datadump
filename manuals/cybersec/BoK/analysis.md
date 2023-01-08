@@ -2,7 +2,7 @@
 title: Theoretical Analysis and Related Info
 description: 
 published: true
-date: 2022-09-08T13:43:48.141Z
+date: 2023-01-08T20:42:15.076Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-08T10:57:10.707Z
@@ -40,17 +40,6 @@ There are different kinds of threats and thus risks an IT environment or a compa
 
 
 
-
-
-
-<br />
-<br />
-
-# Security Threats
-
-In this section, I'll provide some examples about possible security threats to further enhance the risk analysis.
-
-> Todo: Find articles on the internet about malware (a virus, trojan horse, worms, etc.), spam, phishing, adware, ransomware, DDOS attacks or Advanced Persistent Threats. Give a brief description of what it is, how it works and how to protect your 'company X.'
 
 
 <br />
