@@ -2,7 +2,7 @@
 title: Law, Ethics and Responsible Disclosure
 description: 
 published: true
-date: 2022-09-01T22:57:06.470Z
+date: 2023-01-08T20:41:09.277Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T21:24:11.870Z
@@ -15,7 +15,7 @@ dateCreated: 2022-09-01T21:24:11.870Z
 Down below are cases which include my personal view on some quotes from these cases.
 <br />
 
-## 1. The BonziBuddy Case
+## The BonziBuddy Case
 
 <br />
 
@@ -39,12 +39,6 @@ Bonzi Software actually had a second case, one for the violation against the Chi
 This case is "*the first challenge to infomation collection practices*" which gives a clear view of the progress in battling anti-privacy behaviour. What struck me was the fact that at the time, no one really talked about the "easy infomation gathering" when downloading the BonziBuddy software. Even to this day, there are barely any mentions about it. Back then, before making use of the purple gorilla, you as a user had to fill in some important personal information, like your address, name, age, phone-number, etc.
 
 <br />
-<br />
-
-## 2. [Insert Second Case Here]
-
-<br />
-
 
 <br />
 <br />
