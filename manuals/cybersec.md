@@ -2,7 +2,7 @@
 title: Cyber Security Portfolio - CS4 Fontys Eindhoven
 description: 
 published: true
-date: 2023-01-09T11:58:31.419Z
+date: 2023-01-09T11:58:47.548Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:55.326Z
@@ -57,7 +57,7 @@ You demonstrate your professional development as a cyber security specialist in 
 <br />
 <br />
 
-# Documentation
+# Documentation Links
 
 - [BoK](/manuals/cybersec/BoK)
 - [Personal Vulnerability Investigation report](https://stories.shiruvaaa.net/home-server-security/)
