@@ -2,7 +2,7 @@
 title: Cyber Security Portfolio - CS4 Fontys Eindhoven
 description: 
 published: true
-date: 2023-01-09T11:58:47.548Z
+date: 2023-01-09T13:30:52.438Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:55.326Z
@@ -28,6 +28,17 @@ Version history is actively tracked here: https://github.com/silverfs/wikijs-dat
 
 ## Ethical Hacker
 You analyze the security of diverse IT environments, such as a business environment, a consumer product, or a technology, according to a common method of pen-testing.
+
+### What did I learn?
+
+### What am I proud of?
+
+### How do I want to develop further?
+
+### What would I do differently next time?
+
+### How would I grade myself?
+
 
 My favourite subject was working with DVWA, because there were a lot of different things to study. I've learned to analyze the security of diverse IT environments through multiple ways.  I would like to continue develop my Kali skills, because there's a lot that I haven't done yet. In accordance to everything I've done with ethical hacking within this semester, I would give myself a satisfactory satisfactory. 
 <br />
