@@ -2,7 +2,7 @@
 title: Web Security Attack and Defence
 description: 
 published: true
-date: 2023-01-01T17:16:27.172Z
+date: 2023-01-10T16:17:12.673Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-08T10:41:34.312Z
@@ -30,7 +30,7 @@ In the example below, we can deduct a few things from looking at the url. Firstl
 For Windows systems, both ../ and ..\ are valid sequences. An equavalent traversal attack on Windows should look like this:
 `?page=..\..\..\windows\win.ini`.
 
-<br />]
+<br />
 
 Using this theory, we are also able to embed websites on the page using a url after the parameter `page=`.
 
@@ -266,4 +266,95 @@ CSRF looks a lot like XSS, but still different. You can also use XSS to help wit
 <br />
 <br />
 
+---
+
+<br />
+
+# ModSecurityWAF on DVWA
+
+In this section, we'll be taking a look at a WAF for our DVWA instance. A WAF is a Web Application Firewall. They are systems designed to detect and/or block application level attacks on web applications such as SQLi, XSS and command injection. This is precisely what we're trying to accomplish here.
+
+I host my DVWA instance on docker using the image of `vulnerables/web-dvwa`. It is lightweight and has an easy setup. Next, I have installed `ModSecurityWAF`. The full installation guide I used is available [here](https://www.tecmint.com/install-modsecurity-with-apache-on-debian-ubuntu/). In addition to that, I added a fix for a compatibility problem with a particular file that was not included with the instruction. 
+Simply execute teh following oneliner:
+
+```bash
+sudo mv /etc/modsecurity/rules/REQUEST-922-MULTIPART-ATTACK.conf /etc/modsecurity/rules/REQUEST-922-MULTIPART-ATTACK.conf.renamed
+```
+
+Moving on, It's time to test the security of our improved version of DVWA. Let's redo an assignment and see how it would turn out. 
+<br />
+
+We'll do some path traversal, and for the sake of simplicity, I'll reuse the same tactics like so:
+```
+http://192.168.1.21:3006/vulnerabilities/fi/?page=/etc/passwd
+```
+
+However, instead of getting our desireable response, I get the following message:
+
+![waf1.png](/bok/waf1.png)
+
+What happened? It seems my web application firewall worked correctly. Let's take a look at the logs using `tail -f /var/log/apache2/error.log` to see how our WAF logs evil actions.
+
+<br />
+
+> *I've organized the logs a bit for better readability. It normally doesn't look like this. The logs shown down below are filtered for the specific scenario.*
+
+<br />
+
+
+
+```py
+[Tue Jan 10 15:59:36.428012 2023] [:error] [pid 4678] [client 192.168.1.8:2625] [client 192.168.1.8] ModSecurity: 
+Warning. Pattern match "(?:^([\\\\d.]+|\\\\[[\\\\da-f:]+\\\\]|[\\\\da-f:]+)(:[\\\\d]+)?$)" at REQUEST_HEADERS:Host. 
+    [file "/etc/modsecurity/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "761"] [id "920350"] 
+        [msg "Host header is a numeric IP address"] 
+        [data "192.168.1.21:3006"] 
+        [severity "WARNING"] 
+        [ver "OWASP_CRS/4.0.0-rc1"] 
+        [tag "application-multi"] 
+        [tag "language-multi"] 
+        [tag "platform-multi"] 
+        [tag "attack-protocol"] 
+        [tag "paranoia-level/1"] 
+        [tag "OWASP_CRS"] 
+        [tag "capec/1000/210/272"] 
+        [tag "PCI/6.5.10"] 
+        [hostname "192.168.1.21"] 
+        [uri "/vulnerabilities/fi/"] 
+        [unique_id "Y72LaKwRAAYAABJGMwoAAAAF"]
+
+[Tue Jan 10 15:59:36.431410 2023] [:error] [pid 4678] [client 192.168.1.8:2625] [client 192.168.1.8] ModSecurity: 
+Warning. Matched phrase "etc/passwd" at ARGS:page. 
+    [file "/etc/modsecurity/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "524"] [id "932160"] 
+        [msg "Remote Command Execution: Unix Shell Code Found"] 
+        [data "Matched Data: etc/passwd found within ARGS:page: /etc/passwd"] 
+        [severity "CRITICAL"] 
+        [ver "OWASP_CRS/4.0.0-rc1"] 
+        [tag "application-multi"] 
+        [tag "language-shell"] 
+        [tag "platform-unix"] 
+        [tag "attack-rce"] 
+        [tag "paranoia-level/1"] 
+        [tag "OWASP_CRS"] 
+        [tag "capec/1000/152/248/88"] 
+        [tag "PCI/6.5.2"] 
+        [hostname "192.168.1.21"] 
+        [uri "/vulnerabilities/fi/"] 
+        [unique_id "Y72LaKwRAAYAABJGMwoAAAAF"]
+
+[Tue Jan 10 15:59:36.435295 2023] [:error] [pid 4678] [client 192.168.1.8:2625] [client 192.168.1.8] ModSecurity: 
+Access denied with code 403 (phase 2). Operator GE matched 5 at TX:blocking_inbound_anomaly_score. 
+    [file "/etc/modsecurity/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "184"] [id "949110"] 
+        [msg "Inbound Anomaly Score Exceeded (Total Score: 13)"] [
+        ver "OWASP_CRS/4.0.0-rc1"] 
+        [tag "anomaly-evaluation"] 
+        [hostname "192.168.1.21"] 
+        [uri "/vulnerabilities/fi/"] 
+        [unique_id "Y72LaKwRAAYAABJGMwoAAAAF"]
+```
+
+the WAF reported accurately on what happened with detailed information. It reports on the suspicious clients with IP addresses and what they were trying to accomplish. It also records what rule within the WAF is being triggered. With this configuration, this kind of traffic is forbidden and is thus blocked by the WAF. This can be a great enhancement for monitoring when you combine it to a service like Grafana.
+
+<br />
+<br />
 
