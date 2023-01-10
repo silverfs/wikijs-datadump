@@ -2,7 +2,7 @@
 title: Body of Knowledge
 description: 
 published: true
-date: 2023-01-08T23:05:20.876Z
+date: 2023-01-10T16:18:43.412Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:01.183Z
@@ -38,7 +38,7 @@ Version history is actively tracked here: https://github.com/silverfs/wikijs-dat
 ## Attack and Defence
 
 - A guide and walkthrough of DVWA is available [here](/manuals/cybersec/BoK/website-attack-defence). 
-It includes examples of every category documented within the application(s) and ticks the boxes of the beginning theories from path traversal to SQL injection.
+It includes examples of every category documented within the application(s) attack methods and ticks the boxes of the beginning theories from path traversal to SQL injection. We also try to defend it through a Web Application Firewall (WAF).
 
 - [Password Cracking](/manuals/cybersec/BoK/password-cracking) will talk about a basic attempt in password cracking with DVWA.
 
