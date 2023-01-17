@@ -2,7 +2,7 @@
 title: Cyber Security Portfolio - CS4 Fontys Eindhoven
 description: 
 published: true
-date: 2023-01-12T09:42:50.386Z
+date: 2023-01-17T12:05:45.708Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:55.326Z
@@ -61,14 +61,38 @@ I would like to continue develop my Kali skills, because there's a lot that I ha
 I would continue my pace instead of slowing down after a while. Once I've slowed down, I noticed I've fallen behind quite fast and had to work some more to get it together again. 
 
 ### How would I grade myself?
-In accordance to everything I've done with ethical hacking within this semester, I would give myself a satisfactory, as I have much more to learn. 
+In accordance to everything I've done with ethical hacking within this semester, I would give myself a an 7.5, as I have much more to learn, but I did learn many things through pushing myself to learn other things. 
 
 <br />
+<br />
+
+
 
 ## Risk Consultant
 You analyse security threats and resulting business risks according to a common risk analysis method and advise a client on security improvements of an IT environment on a physical, technical and organizational level.
 
-Here, I've learned about security risks in multiple ways. Where I've began my understanding from a simple analysis, I've further handled it through my PVI presentation, where I analyze, advice and improve on security aspects of an IT environment. I would like to continue broadening my horizon by getting involved in all kinds of similar scenarios. I would give myself a satisfactory in this category.
+
+
+
+### Overal impression
+The general impression I got from this subject was that it is very much on a non-technical level. In the end, I thought it added some value, but it's not something I would want to do later.
+
+### What did I learn?
+Here, I've learned about security risks in multiple ways. Where I've began my understanding from a simple analysis, I've further handled it through my PVI presentation, where I analyze, advice and improve on security aspects of an IT environment.  I would give myself a satisfactory in this category.
+
+### What am I proud of?
+I'm proud of, despite not really being into this subject, I managed to learn something and make use of it.
+
+### How do I want to develop further?
+I would like to continue broadening my horizon by getting involved in all kinds of similar scenarios.
+
+### What would I do differently next time?
+I would like to develop real business procedures. Doing that and applying it somewhere. 
+
+### How would I grade myself?
+
+
+<br />
 <br />
 
 ## Security Engineer
