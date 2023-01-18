@@ -2,7 +2,7 @@
 title: Cyber Security Portfolio - CS4 Fontys Eindhoven
 description: 
 published: true
-date: 2023-01-17T12:05:45.708Z
+date: 2023-01-18T23:47:58.591Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:55.326Z
@@ -12,6 +12,9 @@ dateCreated: 2022-08-31T09:37:55.326Z
 
 
 My name is Faizal and welcome to the S4 Documentation hub, where I'll be documenting all my creations, findings and research regarding this semester of Cyber Security 2022-2023. 
+<br />
+<br />
+
 
 ## What was my relevant prior knowledge and experience on security, Linux and networking,and what did I do to obtain this knowledge?
 I consider myself a privacy advocate, and although not much, it naturally involves a bit of security. Other than that, most of the things I've learned this semester are fairly new for me. I've had prior knowledge and experience with Linux and networking through my previous study, so that helped me a lot in this semester.
@@ -36,6 +39,10 @@ In addition, I am good at my profession and I pair it with a lot of practical ex
 
 <br />
 <br />
+<br />
+<br />
+<br />
+
 
 
 # Learning outcomes
@@ -44,6 +51,7 @@ In addition, I am good at my profession and I pair it with a lot of practical ex
 
 ## Ethical Hacker
 You analyze the security of diverse IT environments, such as a business environment, a consumer product, or a technology, according to a common method of pen-testing.
+<br />
 
 ### Overal impression
 The overal impression of Ethical hacker was pretty good. I've had a lot of hands on experience and that helped me greatly. My favourite subject was working with DVWA, because there were a lot of different things to study. Inside that, the best subjects would be network sniffing and spoofing and password/wifi hacking. As these things are more likely to occur in the outside world, it seems more practical. It's just sad that you can't really do it like that in actuality. 
@@ -70,7 +78,7 @@ In accordance to everything I've done with ethical hacking within this semester,
 
 ## Risk Consultant
 You analyse security threats and resulting business risks according to a common risk analysis method and advise a client on security improvements of an IT environment on a physical, technical and organizational level.
-
+<br />
 
 
 
@@ -118,8 +126,8 @@ You demonstrate your professional development as a cyber security specialist in 
 
 - [BoK](/manuals/cybersec/BoK)
 - [Personal Vulnerability Investigation report](https://stories.shiruvaaa.net/home-server-security/)
-- [Personal Specialisation Project Report](/manuals/cybersec/psp)
-- [Group Project Reports](/manuals/cybersec/groupreports)
+- [Personal Specialisation Project Report](https://stories.shiruvaaa.net/running-a-container-as-root-is-it-safe/)
+- [Group Project Reports](https://http.cat/404)
 {.links-list}
 
 <br />
