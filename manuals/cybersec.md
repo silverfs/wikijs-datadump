@@ -2,7 +2,7 @@
 title: Cyber Security Portfolio - CS4 Fontys Eindhoven
 description: 
 published: true
-date: 2023-01-19T00:42:06.689Z
+date: 2023-01-19T00:54:51.445Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:55.326Z
@@ -180,9 +180,12 @@ I would give myself a 7.8. I did a good job managing my own and the group projec
 # Documentation Links
 
 - [BoK](/manuals/cybersec/BoK)
-- [Personal Vulnerability Investigation report](https://stories.shiruvaaa.net/home-server-security/)
-- [Personal Specialisation Project Report](https://stories.shiruvaaa.net/running-a-container-as-root-is-it-safe/)
 - [Group Project Reports](https://http.cat/404)
+- [Personal Vulnerability Investigation report](https://stories.shiruvaaa.net/home-server-security/)
+I've writtin my PVI about home server security. What are the best ways to secure your server? What are ways to attack it? There are many factors that can set you thinking, as every little change you make in a system or network can imact the security of the product. 
+
+- [Personal Specialisation Project Report](https://stories.shiruvaaa.net/running-a-container-as-root-is-it-safe/)
+In this research, I've focused a bit more on Docker container security. I love containerizing applications and thus love to see the security of these containers. Seemingly, it was not as secure as it might seem. I've talked about it with my teacher and it sparked an interest in us both.
 {.links-list}
 
 <br />
@@ -190,6 +193,18 @@ I would give myself a 7.8. I did a good job managing my own and the group projec
 
 # Version Control
 Version history is actively tracked here: https://github.com/silverfs/wikijs-datadump/tree/main/manuals/cybersec
+
+
+<br />
+<br />
+
+# Conclusion
+
+In this semester, I noticed that I did the most out of all other semesters. I wrote a lot of research papers and a lot of documentation. Luckily, I learned a lot from doing that.
+
+I am pleased with my performance this semester, as I have invested a significant amount of passion and dedication into my research and presentations. Additionally, I made a concerted effort to make the most of our group projects, even though we began them later than planned.
+
+The group projects itself had it's ups and downs, but progress was made and teamwork was present. It is good to know how I can improve and what I feel good about, so I know from where to go next. I really have the feeling that I've learned a lot this semester and enjoyed writing the research papers. 
 
 
 
