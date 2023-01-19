@@ -2,7 +2,7 @@
 title: Cyber Security Portfolio - CS4 Fontys Eindhoven
 description: 
 published: true
-date: 2023-01-18T23:47:58.591Z
+date: 2023-01-19T00:42:06.689Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:55.326Z
@@ -95,30 +95,85 @@ I'm proud of, despite not really being into this subject, I managed to learn som
 I would like to continue broadening my horizon by getting involved in all kinds of similar scenarios.
 
 ### What would I do differently next time?
-I would like to develop real business procedures. Doing that and applying it somewhere. 
+I would like to develop real business procedures. Doing that and applying it somewhere would help in a better understanding of the usecases. 
 
 ### How would I grade myself?
-
+I would grade myself a 7, as I could have challenged myself a little more.
 
 <br />
 <br />
 
 ## Security Engineer
 You realize a secure IT infrastructure environment, considering functional requirements as well as the following non-functional requirements: security, monitoring, ethics, compliance, usability.
+<br />
 
-I consider my well-versed in the infrastructure learning curve. Having an IT Infrastructure background, these topics have been a smooth learning curve for me, and I've enjoyed creating them. I still learned a lot, as I've seen and experienced multiple scenarios within infrastructure security. This would be pretty advanced.
+### Overal impression
+The nice thing about this subject is the ability to apply things as real scenarios. Virtualization plays a big role in this, and I have some experience with it, which is nice.
+
+### What did I learn?
+I've learned a lot when it comes to containerization. I've talked about it through both my PVI and my PSP. New and better ways to set things up, as well as aditional security. 
+
+### What am I proud of?
+I'm proud of not only performing all the individual tasks in the BOK, but even expanding my knowledge to my personal research papers. Configuring routers was pretty difficult for me in the beginning, but now I can even explain it to others.
+
+### How do I want to develop further?
+I would like to continue my development with Kubernetes, as I think it would be highly beneficial to learn it. 
+
+### What would I do differently next time?
+I would encourage myself to learn more on the security side techniques than I already did. But overal I'm pretty satisfied with what I already did.
+
+### How would I grade myself?
+I would give myself at least a 9. I've outdone myself in multiple projects with this subject, and I'm proud of that. 
+
 <br />
 
 ## Security Analyst
 You realize procedural response for security incidents and analyze these in an efficient and methodical way.
+<br />
 
-Having done some assignments of security analyst, I realized that there's more to see with security monitoring. Applying this on my pen test group project to try to see it from a different perspective has worked in my favor so far. What I like about monitoring are the different kinds of ways I can do it. I'll give it a satisfactory, as I have much to learn, especially on my internship. 
+### Overal impression
+This subject was not the best subject I did in the BOK. As I did these assignments later in the semester, they didn't stick as well as others. I had some hands-on experience with monitoring, but it wasn't much. Though, it was still interesting to learn it.
+
+### What did I learn?
+I learned what kinds of monitoring tools there are and what they are used for. 
+
+### What am I proud of?
+ I'm proud of gaining knowledge about different kinds of packets and methods for monitoring, as well as some good overal impressions.
+
+### How do I want to develop further?
+Having done some assignments of security analyst, I realized that there's more to see with security monitoring. Applying this on my pen test group project to try to see it from a different perspective has worked in my favor so far. I would like to continue working on monitoring, as I don't know much about the subject. Luckily, my upcomming internship would help me with this.
+
+### What would I do differently next time?
+I would spend more time researching the different methods, as they are more interesting than they seem.
+
+### How would I grade myself?
+I will give myself a 7.5. I've done my best, but I could've given it more time, if I allowed myself to. 
+
+
 <br />
 
 ## Security Professional
 You demonstrate your professional development as a cyber security specialist in the form of authentic IT professional tasks in which both the process and the results are visible.
+<br />
+
+### What did I learn?
+I learned to create a better plan when it comes to having multiple projects within a group. I've also learned some good interaction knowledge and presentation skills.
+
+### What am I proud of?
+I'm proud that I could use the skills I've learned in all projects. I've learned to work closer together with people and come up with good ideas. 
+
+### How do I want to develop further?
+I would like to continue develop myself in working together with people. I have a feeling that it is a good thing to develop, and I need a lot more experience. I will have to be more objective in a project, which will be a challenge. 
+
+### What would I do differently next time?
+I would make decisions earlier when things might go wrong or something unexpected happens. Although I was assigned as a group leader, at times I was too relaxed to notice certain things.
 
 
+### How would I grade myself?
+I would give myself a 7.8. I did a good job managing my own and the group projects, but there are always things to improve. 
+
+<br />
+<br />
 <br />
 <br />
 
