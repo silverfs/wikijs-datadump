@@ -2,7 +2,7 @@
 title: Reset Windows Passwords With an Install Disk
 description: 
 published: true
-date: 2021-08-31T09:25:12.516Z
+date: 2023-01-26T17:27:25.441Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T09:25:08.753Z
@@ -16,8 +16,8 @@ There are numerous ways to reset a password. Whatever your reason, you do you. T
 ## Step 1: Boot from Windows 10 Install Disk
 First, insert the Windows 10 installation disk into your PC and reboot from it. Remember to change the boot order and disable UEFI secure boot temporarily in BIOS/UEFI firmware so you can boot from CD or USB.
 
-![press-key-boot-from-cd.png](/press-key-boot-from-cd.png)
 
+![press-key-boot-from-cd.png](/reset-password-winusb/press-key-boot-from-cd.png)
 
 
 
@@ -26,8 +26,7 @@ When the screen displays "Press any key to boot from CD or DVD", you guessed it:
 ## Step 2: Replace Sethc.exe with Cmd.exe
 When you come to the Windows Setup screen, just press SHIFT + F10 key combinations to launch Command Prompt.
 
-![windows-10-setup.png](/windows-10-setup.png)
-
+![windows-10-setup.png](/reset-password-winusb/windows-10-setup.png)
 
 
 Type following commands in Command Prompt window and press Enter key each time you enter a command. Replace d:\ with the drive letter of your Windows installation.
@@ -39,12 +38,12 @@ copy /y C:\windows\system32\cmd.exe d:\windows\system32\sethc.exe
 
 (This will essentially replace the sticky keys with the command prompt).
 
-![replace-sethc-with-cmd.png](/replace-sethc-with-cmd.png)
+
+![replace-sethc-with-cmd.png](/reset-password-winusb/replace-sethc-with-cmd.png)
 
 Now you can close the Command Prompt, cancel Windows Setup, restart your PC and remove Windows install disk.
 
-![exit-windows-setup.png](/exit-windows-setup.png)
-
+![exit-windows-setup.png](/reset-password-winusb/exit-windows-setup.png)
 
 
 ## Step 3: Reset Forgotten Windows 10 Password
@@ -57,8 +56,7 @@ Now, to change the password use the following command. Do not forget to replace 
 net user username newpassword
 ```
 
-![reset-windows-password-at-logon.jpg](/reset-windows-password-at-logon.jpg)
-
+![reset-windows-password-at-logon.jpg](/reset-password-winusb/reset-windows-password-at-logon.jpg)
 
 
 
