@@ -2,13 +2,14 @@
 title: Git in Five Minutes (or More)
 description: 
 published: true
-date: 2022-04-17T22:20:32.173Z
+date: 2023-01-26T17:29:08.687Z
 tags: git, github, cheat sheet
 editor: markdown
 dateCreated: 2021-08-21T23:01:07.994Z
 ---
 
-<img src="/git-logo-svg.png" width="400"/>
+<img src="/git/git-logo-svg.png" width="400"/>
+
 </br>
 
 Many people consider Git to be too confusing or complex to be a choice for version control. Yet Git considers to grow in adoption, and many interesting things have grown up around it. This document is geared for someone wanted to get started with Git, often coming from a Subversion background. For most basic needs this document will cover 70 to 90 percent of your use.
