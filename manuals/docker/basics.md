@@ -2,7 +2,7 @@
 title: The Basics of Docker and Virtualization
 description: 
 published: true
-date: 2022-04-20T14:22:43.136Z
+date: 2023-01-26T17:22:43.373Z
 tags: docker, guide, manual, virtualization
 editor: markdown
 dateCreated: 2021-08-21T22:18:15.527Z
@@ -12,7 +12,7 @@ dateCreated: 2021-08-21T22:18:15.527Z
 ## Pre-virtualization world
 In the pre-virtualization days, we used big server racks. Underneath, we had the physical server. we installed the desired Operating System on it and run the application on top of the operating system. Each physical machine would run only one application. You can already guess where I'm going to...
 
-![pre-virtualization.png](/pre-virtualization.png)
+![pre-virtualization.png](/docker/basics/pre-virtualization.png)
 
 There are some problems with this model. First of all, we have to purchase a physical machine. Believe me, those can be very expensive. We might end up only using a fraction of the CPU or a memory of the machine. The rest of the resources would be simply wasted. Secondly, deployment time is often slow. The process of purchasing and configuring your physical server can take ages; especially for big organizations. Thirdly, it would be painful to migrate our applications to servers from different vendors.
 
@@ -21,7 +21,7 @@ There are some problems with this model. First of all, we have to purchase a phy
 ## Hypervisor-based Virtualization
 Take a look at this model.
 
-![hypervisor-based.png](/hypervisor-based.png)
+![hypervisor-based.png](/docker/basics/hypervisor-based.png)
 
 Underneath we have the physical server. There, we would install the desired Operating System. On top of the OS, a hypervisor layer is introduced which allows us to install multiple virtual machines (VM) on a physical machine. Each VM can have a different Operating system. In this way, we can run multiple Operating Systems, on a single physical machine and each Operating System can run a different application. This is the traditional model of virtualization which is being referenced as the hypervisor-based virtualization. Some of the popular hypervisor providers are VMware and VirtualBox. In the early stage, users would deploy VM's on their own physical servers, but nowadays, more and more companies have been shifted to deploy VM's in the cloud with providers such as AWS and Microsoft.
 
@@ -36,7 +36,7 @@ First of all, each VM still needs to have an OS installed. This means that each 
 ## Container-based Virtualization
 Finally, the Container virtualization technology was dropped. Docker is an implementation of container-based virtualization technologies. Let's take a look at this diagram here.
 
-![container-based.png](/container-based.png)
+![container-based.png](/docker/basics/container-based.png)
 
 Underneath, we have our server. This can either be a physical machine, or a virtual machine. Then, we install the operating system on the server. on top of the OS, we install a container engine, which allows us to run multiple guest instances. Each guest instance is called a container. Within each container we install the application and all the libraries that the application depends on.
 
