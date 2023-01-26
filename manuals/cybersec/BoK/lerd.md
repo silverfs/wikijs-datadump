@@ -2,7 +2,7 @@
 title: Law, Ethics and Responsible Disclosure
 description: 
 published: true
-date: 2023-01-08T20:41:09.277Z
+date: 2023-01-08T20:41:13.669Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T21:24:11.870Z

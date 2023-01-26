@@ -2,7 +2,7 @@
 title: Network Seperation and Segmentation
 description: 
 published: true
-date: 2023-01-04T15:33:42.176Z
+date: 2023-01-04T15:33:46.551Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T20:29:10.329Z

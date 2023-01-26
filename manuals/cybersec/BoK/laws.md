@@ -2,7 +2,7 @@
 title: Law, Standards and Compliance
 description: 
 published: true
-date: 2022-12-18T23:34:57.786Z
+date: 2022-12-18T23:35:02.200Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-18T22:51:54.071Z

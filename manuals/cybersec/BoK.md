@@ -2,7 +2,7 @@
 title: Body of Knowledge
 description: 
 published: true
-date: 2023-01-10T19:50:38.864Z
+date: 2023-01-10T19:50:43.589Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T09:37:01.183Z

@@ -2,7 +2,7 @@
 title: Basic Monitoring
 description: 
 published: true
-date: 2023-01-08T23:04:00.892Z
+date: 2023-01-08T23:04:05.216Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-08T23:04:00.892Z

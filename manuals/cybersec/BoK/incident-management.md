@@ -2,7 +2,7 @@
 title: Security Incident Management
 description: 
 published: true
-date: 2023-01-06T21:41:48.947Z
+date: 2023-01-06T21:41:53.336Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-06T21:41:48.947Z

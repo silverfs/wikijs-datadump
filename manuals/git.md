@@ -2,7 +2,7 @@
 title: Git in Five Minutes (or More)
 description: 
 published: true
-date: 2023-01-26T17:29:08.687Z
+date: 2023-01-26T17:29:13.540Z
 tags: git, github, cheat sheet
 editor: markdown
 dateCreated: 2021-08-21T23:01:07.994Z

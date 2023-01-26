@@ -2,7 +2,7 @@
 title: The Basics of Docker and Virtualization
 description: 
 published: true
-date: 2023-01-26T17:22:43.373Z
+date: 2023-01-26T17:22:47.991Z
 tags: docker, guide, manual, virtualization
 editor: markdown
 dateCreated: 2021-08-21T22:18:15.527Z

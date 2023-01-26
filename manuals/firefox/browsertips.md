@@ -2,7 +2,7 @@
 title: Firefox Browser Tips
 description: 
 published: true
-date: 2023-01-26T15:44:24.597Z
+date: 2023-01-26T15:44:29.275Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-26T13:41:45.070Z

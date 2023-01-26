@@ -2,7 +2,7 @@
 title: Network Intrusion Detection and Prevention
 description: 
 published: true
-date: 2023-01-09T15:22:03.357Z
+date: 2023-01-09T15:22:07.836Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-08T15:26:58.120Z

@@ -2,7 +2,7 @@
 title: What is Docker Swarm?
 description: 
 published: true
-date: 2023-01-26T17:23:41.838Z
+date: 2023-01-26T17:23:46.243Z
 tags: docker, guide, manual, virtualization, swarm
 editor: markdown
 dateCreated: 2021-08-21T22:26:03.142Z

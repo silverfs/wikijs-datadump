@@ -2,7 +2,7 @@
 title: Different kinds of detection
 description: 
 published: true
-date: 2023-01-06T19:46:00.850Z
+date: 2023-01-06T19:46:05.303Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-06T19:45:41.064Z

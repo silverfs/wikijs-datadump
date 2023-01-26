@@ -2,7 +2,7 @@
 title: Basic Hacking and Pentesting Process 
 description: 
 published: true
-date: 2023-01-06T15:50:58.627Z
+date: 2023-01-06T15:51:03.009Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-06T15:50:58.627Z

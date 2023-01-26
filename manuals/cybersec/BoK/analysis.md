@@ -2,7 +2,7 @@
 title: Theoretical Analysis and Related Info
 description: 
 published: true
-date: 2023-01-08T20:42:15.076Z
+date: 2023-01-08T20:42:19.427Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-08T10:57:10.707Z

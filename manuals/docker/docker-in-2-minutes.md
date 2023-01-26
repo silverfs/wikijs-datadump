@@ -2,7 +2,7 @@
 title: Docker in 2 minutes
 description: 
 published: true
-date: 2023-01-26T17:20:39.917Z
+date: 2023-01-26T17:20:44.400Z
 tags: docker, guide, manual, virtualization
 editor: markdown
 dateCreated: 2021-08-21T22:14:32.955Z

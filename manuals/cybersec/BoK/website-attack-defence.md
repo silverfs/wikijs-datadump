@@ -2,7 +2,7 @@
 title: Web Security Attack and Defence
 description: 
 published: true
-date: 2023-01-10T16:17:12.673Z
+date: 2023-01-10T16:17:17.560Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-08T10:41:34.312Z
