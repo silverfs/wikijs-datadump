@@ -2,7 +2,7 @@
 title: What is Docker Swarm?
 description: 
 published: true
-date: 2022-04-20T14:23:22.898Z
+date: 2023-01-26T17:23:41.838Z
 tags: docker, guide, manual, virtualization, swarm
 editor: markdown
 dateCreated: 2021-08-21T22:26:03.142Z
@@ -15,4 +15,4 @@ Let's say you have a couple of Docker hosts. each host, has their own Docker Dea
 
 So, basically, Docker Swarm can group multiple hosts into a cluster and distribute docker containers among these hosts.
 
-![docker-swarm-exp.png](/docker-swarm-exp.png)
+![docker-swarm-exp.png](/docker/swarm/docker-swarm-exp.png)
