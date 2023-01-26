@@ -2,7 +2,7 @@
 title: Docker in 2 minutes
 description: 
 published: true
-date: 2022-04-20T14:22:17.349Z
+date: 2023-01-26T17:19:32.921Z
 tags: docker, guide, manual, virtualization
 editor: markdown
 dateCreated: 2021-08-21T22:14:32.955Z
@@ -10,7 +10,7 @@ dateCreated: 2021-08-21T22:14:32.955Z
 
 # What is Docker?
 
-<img src="/docker.png" width="800"/>
+<img src="/docker/docker-in-2-minutes/dockerpng.png" width="800"/>
 </br>
 
 Docker is mainly a software development platform and kind of a virtualization technology that makes it easy for us to develop and deploy apps inside of neatly packaged virtual containerized environments. Meaning, applications run the same, no matter where they are or what machine they are running on.
@@ -23,5 +23,5 @@ Docker is a form of virtualization, but, unlike normal virtual machines, the res
 </br>
 </br>
 
-<img src="/container-vs-vms.png" width="800"/>
+<img src="/docker/docker-in-2-minutes/container-vs-vms.png" width="800"/>
 
