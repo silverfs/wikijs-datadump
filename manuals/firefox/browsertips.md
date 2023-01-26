@@ -2,7 +2,7 @@
 title: Firefox Browser Tips
 description: 
 published: true
-date: 2023-01-26T15:43:22.116Z
+date: 2023-01-26T15:44:24.597Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-26T13:41:45.070Z
@@ -62,6 +62,7 @@ extensions.webextensions.restrictedDomains
 4. Click on the checkmark.
 5. Restart your browser and you should be good to go.
 
+https://www.ghacks.net/2017/10/27/how-to-enable-firefox-webextensions-on-mozilla-websites/
 
 <br>
 <br>
