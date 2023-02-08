@@ -2,7 +2,7 @@
 title: Google Chronicle
 description: 
 published: true
-date: 2023-02-08T11:51:18.344Z
+date: 2023-02-08T12:42:53.919Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-08T09:15:41.241Z
@@ -14,7 +14,7 @@ This page will help in understanding Google Chronicle as best as possible in a s
 <br>
 
 # What is it?
-[Google Chronicle](https://chronicle.security/) is a Petabyte-scaled, cloud-native security analytics platform for threat investigation and hunting. Google Chronicle is built for managing an incredible amount of data in an efficient manner within an enterprise network. 
+[Google Chronicle](https://chronicle.security/) is a scaled, cloud-native security analytics platform for threat investigation and hunting. Google Chronicle is built for managing an incredible amount of data in an efficient manner within an enterprise network. 
 It provides many benefits over other solutions, like threat detection at Google speed and scale through Intelligence data fusion and indexing via Google. This provides a clear monitoring overview. 
 
 
@@ -30,7 +30,7 @@ Chronicle ingests different types of security data and telemetry types through a
 In short: The *Forwarder*  
 
 ## Intelligent Data Fusion
-Chronicle is able to map logs into a common model that enriches them automatically and categorizes them into timelines. This helps in displaying the entire span of an attack, which makes investigation efforts much more easy and effective. 
+Chronicle is able to map logs into a common model that enriches them automatically and categorizes them into timelines. This helps in displaying the entire span of an attack, which makes investigation efforts more easy and effective. 
 
 
 
