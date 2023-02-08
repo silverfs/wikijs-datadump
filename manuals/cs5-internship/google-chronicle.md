@@ -2,7 +2,7 @@
 title: Google Chronicle
 description: 
 published: true
-date: 2023-02-08T10:39:38.888Z
+date: 2023-02-08T10:41:57.615Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-08T09:15:41.241Z
@@ -20,8 +20,12 @@ It provides many benefits over other solutions, like threat detection at Google 
 
 # Data Collection
 Chronicle ingests different types of security data and telemetry types through a variety of methods. It uses a *Forwarder*: a lightweight software component, deployed in the customer's network. The *Forwarder* supports syslog, packet capture and existing log management or SIEM data repositories. It uses Ingestion APIs that enable logs to be sent directly to the chronicle platform, eliminating the need for additional hardware or software in customer's network environments. Below is a diagram that shows how data would be sent and collected.
+<br>
 
-![chronicle-data-flow.png](/cs5/chronicle/chronicle-data-flow.png)
+<img src="/cs5/chronicle/chronicle-data-flow.png" width="1000"/>
+
+<br>
+<br>
 
 ## Intelligent Data Fusion
 Chronicle is able to map logs into a common model that enriches them automatically and categorizes them into timelines. This helps in displaying the entire span of an attack, which makes investigation efforts much more easy and effective. 
