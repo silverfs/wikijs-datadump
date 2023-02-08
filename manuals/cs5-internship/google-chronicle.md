@@ -2,7 +2,7 @@
 title: Google Chronicle
 description: 
 published: true
-date: 2023-02-08T10:42:39.955Z
+date: 2023-02-08T11:51:18.344Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-08T09:15:41.241Z
@@ -26,6 +26,8 @@ Chronicle ingests different types of security data and telemetry types through a
 
 <br>
 <br>
+
+In short: The *Forwarder*  
 
 ## Intelligent Data Fusion
 Chronicle is able to map logs into a common model that enriches them automatically and categorizes them into timelines. This helps in displaying the entire span of an attack, which makes investigation efforts much more easy and effective. 
