@@ -2,7 +2,7 @@
 title: Google Chronicle
 description: 
 published: true
-date: 2023-02-10T13:36:38.040Z
+date: 2023-02-10T13:46:23.464Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-08T09:15:41.241Z
@@ -29,7 +29,7 @@ Chronicle ingests different types of security data and telemetry types through a
 
 In short: The *Forwarder* (which is either a Chronicle Forwarder or through a protocol like SFTP) sends raw security data and telemetry through a cloud storage service to Chronicle. 
 Chronicle segregates and stores the data, which then get parsed and validated for easier processing. After the process of parsing and validating, it checks and compares the security data against Chronicle's internal threat analytics tools and systems, and third-party feeds like DHS treat feed, Homeland Security, Avast, and more.
-lastly, the data gets indexed for it to be searchable. Chronicle searches for matches between the security data and the VIrusTotal malware database. When a search query is triggered, VirusTotal information is available in a detailed view. 
+lastly, the data gets indexed for it to be searchable. Chronicle searches for matches between the security data and the VirusTotal (or other options like Uppercase) malware database. When a search query is triggered, VirusTotal information is available in a detailed view. Security data older than 6 months are saved in an unparsed raw log format. Data is then searchable through the raw Log Scan or with regular expressions.
 
 ## Intelligent Data Fusion
 Chronicle is able to map logs into a common model that enriches them automatically and categorizes them into timelines. This helps in displaying the entire span of an attack, which makes investigation efforts more easy and effective. 
