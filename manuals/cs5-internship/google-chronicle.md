@@ -2,7 +2,7 @@
 title: Google Chronicle
 description: 
 published: true
-date: 2023-02-10T13:46:23.464Z
+date: 2023-02-10T13:48:54.531Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-08T09:15:41.241Z
