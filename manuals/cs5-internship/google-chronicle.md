@@ -2,7 +2,7 @@
 title: Google Chronicle
 description: 
 published: true
-date: 2023-02-13T08:49:05.687Z
+date: 2023-02-13T08:54:06.163Z
 tags: google, chronicle, siem, cybersecurity
 editor: markdown
 dateCreated: 2023-02-08T09:15:41.241Z
@@ -15,7 +15,7 @@ This page will help in understanding Google Chronicle as best as possible in a s
 
 # What is it?
 [Google Chronicle](https://chronicle.security/) is a scaled, cloud-native security analytics platform for threat investigation and hunting. Google Chronicle is built for managing an incredible amount of data in an efficient manner within an enterprise network. 
-It provides many benefits over other solutions, like threat detection at Google speed and scale through Intelligence data fusion and indexing via Google. This provides a clear monitoring overview. 
+It provides many benefits over other solutions, like threat detection at Google speed and scaling through Intelligence data fusion and indexing via Google. This provides a clear monitoring overview. 
 
 
 # Data Collection
@@ -28,8 +28,8 @@ Chronicle ingests different types of security data and telemetry types through a
 <br>
 
 In short: The *Forwarder* (which is either a Chronicle Forwarder or through a protocol like SFTP) sends raw security data and telemetry through a cloud storage service to Chronicle. 
-Chronicle segregates and stores the data, which then get parsed and validated for easier processing. After the process of parsing and validating, it checks and compares the security data against Chronicle's internal threat analytics tools and systems, and third-party feeds like DHS treat feed, Homeland Security, Avast, and more.
-lastly, the data gets indexed for it to be searchable. Chronicle searches for matches between the security data and the VirusTotal (or other options like Uppercase) malware database. When a search query is triggered, VirusTotal information is available in a detailed view. Security data older than 6 months are saved in an unparsed raw log format. Data is then searchable through the raw Log Scan or with regular expressions.
+Chronicle segregates and stores the data, which then get parsed and validated for easier processing. After the process of parsing and validating, it checks and compares the security data against Chronicle's internal threat analytics tools and systems, and third-party feeds like the DHS treat feed, Homeland Security, Avast, and more.
+Lastly, the data gets indexed for it to be searchable. Chronicle searches for matches between the security data and the VirusTotal (or others like Uppercase) malware database. When a search query is triggered, VirusTotal information is available in a detailed view, along with all other data and telemetry. Security data older than 6 months is saved in an unparsed raw log format. Data is then searchable through the raw Log Scan or with regular expressions.
 
 ## Intelligent Data Fusion
 Chronicle is able to map logs into a common model that enriches them automatically and categorizes them into timelines. This helps in displaying the entire span of an attack, which makes investigation efforts more easy and effective. 
