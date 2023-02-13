@@ -2,7 +2,7 @@
 title: Google Chronicle
 description: 
 published: true
-date: 2023-02-13T15:26:32.087Z
+date: 2023-02-13T15:29:52.862Z
 tags: google, chronicle, siem, cybersecurity
 editor: markdown
 dateCreated: 2023-02-08T09:15:41.241Z
@@ -39,10 +39,6 @@ Chronicle is able to map logs into a common model that enriches them automatical
 
 # Collecting and parsing data
 When the raw logs arrive at Chronicle, they will be identified using a LogType. This includes the device and vendor that corresponds with log data. This is done through the LogType. The LogType also identifies which parser this raw data converts. Parsers have a 1:1 relation to LogTypes. They convert the raw data to a UDM (Unified Data Model) structure to make it readable/indexable.
-
-
-
-Parsing log variants for normalizing data. 
 
 
 
