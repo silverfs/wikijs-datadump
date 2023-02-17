@@ -2,8 +2,8 @@
 title: Fajita Custom Root + Update Help
 description: 
 published: true
-date: 2023-02-17T19:47:12.765Z
-tags: 
+date: 2023-02-17T19:59:35.508Z
+tags: android
 editor: markdown
 dateCreated: 2023-01-15T18:57:57.353Z
 ---
@@ -17,7 +17,21 @@ Uncategorized links:
 - https://topjohnwu.github.io/Magisk/install.html#patching-images
 
 
+
 # Re-Root after update
+<br>
+
+## Prerequisites
+
+Make sure you have the following installed on your computer:
+- adb
+- python =< 3
+
+Make sure you have installed the update and rebooted the device using the default method before you follow the steps.
+<br>
+<br>
+
+## Steps
 
 1. Download [LineageOS/scripts](https://github.com/LineageOS/scripts) off of Github.
 2. Install the [latest update](https://download.lineageos.org/fajita) of LineageOS.
