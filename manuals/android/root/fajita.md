@@ -1,51 +1,44 @@
 ---
-title: Fajita Custom Root + Root
+title: Fajita Custom Root + Update Help
 description: 
 published: true
-date: 2023-01-24T12:28:25.953Z
+date: 2023-02-17T19:47:12.765Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-15T18:57:57.353Z
 ---
 
 # Introduction
-Your content here
+Uncategorized links:
 
-https://github.com/topjohnwu/Magisk/issues/5299
-
-https://wiki.lineageos.org/devices/fajita/install
-
-https://download.lineageos.org/fajita
-
-https://topjohnwu.github.io/Magisk/install.html#patching-images
+- https://github.com/topjohnwu/Magisk/issues/5299
+- https://wiki.lineageos.org/devices/fajita/install
+- https://download.lineageos.org/fajita
+- https://topjohnwu.github.io/Magisk/install.html#patching-images
 
 
 # Re-Root after update
 
-Download [LineageOS/scripts](https://github.com/LineageOS/scripts) off of Github.
-
-Install the [latest update](https://download.lineageos.org/fajita) of LineageOS.
-
-Extract `payload.bin` from the .zip and move it to the root directory of the downloaded repo.
-
-
-In the root directory of the repository, execute the following command.
+1. Download [LineageOS/scripts](https://github.com/LineageOS/scripts) off of Github.
+2. Install the [latest update](https://download.lineageos.org/fajita) of LineageOS.
+3. Extract `payload.bin` from the .zip and move it to the root directory of the downloaded repo.
+4. In the root directory of the repository, execute the following command.
 
 ```bash
 python ./update-payload-extractor/extract.py payload.bin --output_dir ./output
 ```
 
-Navigate to the `output` folder. 
+5. Navigate to the `output` folder. 
 
-Push your `boot.img` to the device:
+6. Push your `boot.img` to the device:
 
 ```bash
 adb push ./boot.img /sdcard
 ``` 
 
-Magisk: patch from file. Select `boot.img`.
+7. Magisk: patch from file. Select `boot.img`.
 
-After it's done, pull your patched image and flash the magisk_patched file.
+8. After it's done, pull your patched image and flash the magisk_patched file.
 
 ```
 adb pull /sdcard/Download/magisk_patched-25200-<SOME-STRING-HERE>.img
@@ -59,6 +52,6 @@ adb reboot fastboot
 fastboot flash --slot=all boot magisk_patched-<SOME-STRING-HERE>.img
 ```
 
-Finally, reboot the device through the Device's screen. 
+9. Finally, reboot the device through the Device's screen. 
 
 
