@@ -2,7 +2,7 @@
 title: Fajita Custom Root + Update Help
 description: 
 published: true
-date: 2023-02-17T19:59:35.508Z
+date: 2023-02-17T20:03:19.019Z
 tags: android
 editor: markdown
 dateCreated: 2023-01-15T18:57:57.353Z
@@ -27,7 +27,8 @@ Make sure you have the following installed on your computer:
 - adb
 - python =< 3
 
-Make sure you have installed the update and rebooted the device using the default method before you follow the steps.
+Make sure your phone already has the Magisk application. Also, make sure you have installed the update and rebooted the device using the default method before you follow the steps below.
+
 <br>
 <br>
 
