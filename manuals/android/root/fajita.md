@@ -2,21 +2,16 @@
 title: Fajita Custom Root + Update Help
 description: 
 published: true
-date: 2023-02-17T20:03:19.019Z
+date: 2023-04-21T14:33:54.307Z
 tags: android
 editor: markdown
 dateCreated: 2023-01-15T18:57:57.353Z
 ---
 
-# Introduction
-Uncategorized links:
+> this guide only works with Linux. Windows will not work with this device!
+{.is-warning}
 
-- https://github.com/topjohnwu/Magisk/issues/5299
-- https://wiki.lineageos.org/devices/fajita/install
-- https://download.lineageos.org/fajita
-- https://topjohnwu.github.io/Magisk/install.html#patching-images
-
-
+<br>
 
 # Re-Root after update
 <br>
@@ -36,8 +31,8 @@ Make sure your phone already has the Magisk application. Also, make sure you hav
 
 1. Download [LineageOS/scripts](https://github.com/LineageOS/scripts) off of Github.
 2. Install the [latest update](https://download.lineageos.org/fajita) of LineageOS.
-3. Extract `payload.bin` from the .zip and move it to the root directory of the downloaded repo.
-4. In the root directory of the repository, execute the following command.
+3. Extract `payload.bin` from the .zip and move it to the root directory of the downloaded repo (LineageOS/scripts).
+4. In that root directory, execute the following command:
 
 ```bash
 python ./update-payload-extractor/extract.py payload.bin --output_dir ./output
@@ -69,4 +64,13 @@ fastboot flash --slot=all boot magisk_patched-<SOME-STRING-HERE>.img
 
 9. Finally, reboot the device through the Device's screen. 
 
+<br>
+<br>
+
+## Uncategorized links:
+
+- https://github.com/topjohnwu/Magisk/issues/5299
+- https://wiki.lineageos.org/devices/fajita/install
+- https://download.lineageos.org/fajita
+- https://topjohnwu.github.io/Magisk/install.html#patching-images
 
