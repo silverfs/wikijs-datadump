@@ -2,7 +2,7 @@
 title: Simple Search
 description: 
 published: true
-date: 2022-04-17T22:31:09.515Z
+date: 2023-08-04T18:30:09.984Z
 tags: privacy, windows, search, regedit
 editor: markdown
 dateCreated: 2021-08-31T09:21:34.652Z
@@ -10,8 +10,8 @@ dateCreated: 2021-08-31T09:21:34.652Z
 
 
 
-Not many people ... with a good functioning searchability. No matter on what platform or service, be it a searchengine or an operating system, your results are best unfiltered, uncensored and untracked.
-Unfortunately, we can't be 100% free of those shackles, but we still have our choices. Simple Search may be your first step to a better Windows experience... 
+Not many people use the Windows search function and can say with confidence that they can find the things they want. I probably can't fix that in this document, but no matter on what platform or service, be it a searchengine or an operating system, your results are best unfiltered, uncensored and untracked.
+Unfortunately, we can't be 100% free of those shackles using Windows, but we can still have our choices. Simple Search may be your first step to a better Windows experience... 
 
 
 ## Simplified searching on Windows 10
