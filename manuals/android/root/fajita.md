@@ -2,7 +2,7 @@
 title: Fajita Custom Root + Update Help
 description: 
 published: true
-date: 2023-08-08T16:39:06.958Z
+date: 2023-08-08T16:39:17.528Z
 tags: android
 editor: markdown
 dateCreated: 2023-01-15T18:57:57.353Z
@@ -40,7 +40,7 @@ python ./update-payload-extractor/extract.py payload.bin --output_dir ./output
 
 > **1>** If you receive the error which tells you that the module 'google' was not found, simply install it using `pip install --upgrade google-api-python-client`.
 	**2>** If you receive the error 'Descriptors cannot not be created directly.', downgrade protobuf using `pip install protobuf==3.20.0`.
-{.is-danger}
+{.is-warning}
 
 
 
