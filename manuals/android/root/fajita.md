@@ -2,7 +2,7 @@
 title: Fajita Custom Root + Update Help
 description: 
 published: true
-date: 2023-08-08T16:39:17.528Z
+date: 2023-08-08T18:18:48.409Z
 tags: android
 editor: markdown
 dateCreated: 2023-01-15T18:57:57.353Z
@@ -54,7 +54,7 @@ adb push ./boot.img /sdcard
 
 7. Magisk: patch from file. Select `boot.img`.
 
-8. After it's done, pull your patched image and flash the magisk_patched file.
+8. After it's done, pull your patched image and flash the magisk_patched file:
 
 ```
 adb pull /sdcard/Download/magisk_patched-25200-<SOME-STRING-HERE>.img
