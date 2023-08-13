@@ -2,7 +2,7 @@
 title: Windows: Tips & Tricks
 description: 
 published: true
-date: 2023-08-13T20:55:55.952Z
+date: 2023-08-13T21:02:33.416Z
 tags: windows tricks, tweaking, privacy, tooling, windows
 editor: markdown
 dateCreated: 2021-08-31T09:29:17.058Z
@@ -14,14 +14,15 @@ Below is an overview of the content I'm currently offering.
 <br>
 <br>
 
-## Windows 11 Specific
+## 🆕: Windows 11 Specific 
 
-- [Install Windows 11 without needing an internet connection]()
-- [Install Windows 11 without bloatware]()
+- [Install Windows 11 without needing an internet connection](/manuals/windows-tips/no-internet-connection-installation)
+- [Install Windows 11 without bloatware](/manuals/windows-tips/no-bloat-installation)
 
 <br> 
 
-## Privacy First
+
+## 😎: Privacy First
 
 - [Simple Search](/manuals/windows-tips/simplesearch)
 
@@ -29,7 +30,7 @@ Below is an overview of the content I'm currently offering.
 
 <br>
 
-## Tools & Tweaks
+## 🛠️: Tools & Tweaks
 
 - [Winaero Tweaker](/manuals/windows-tips/winaero-tweaker)
 - [PowerToys](/manuals/windows-tips/winpowertoys) - coming soon
@@ -38,7 +39,7 @@ Below is an overview of the content I'm currently offering.
 
 <br>
 
-## System Administration
+## 🗃️: System Administration
 
 - [Reset Windows Passwords With an Install Disk](/manuals/windows-tips/reset-password-winusb)
 
